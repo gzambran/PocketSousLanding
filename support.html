@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support | PocketSous</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="PocketSous Support - Get help with the PocketSous cooking assistant app. Find answers to frequently asked questions and contact our support team.">
+    <link rel="canonical" href="https://pocketsous.app/support.html">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pocketsous.app/support.html">
+    <meta property="og:title" content="Support | PocketSous Cooking Assistant">
+    <meta property="og:description" content="Get help with the PocketSous cooking assistant app. Find answers to frequently asked questions and contact our support team.">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://pocketsous.app/support.html">
+    <meta name="twitter:title" content="Support | PocketSous Cooking Assistant">
+    <meta name="twitter:description" content="Get help with the PocketSous cooking assistant app. Find answers to frequently asked questions and contact our support team.">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Load shared components -->
+    <script src="components/shared-components.js"></script>
+    <style>
+        .support-container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 40px 48px;
+            transition: all var(--animation-medium) ease;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            background-color: var(--bg-accent);
+            color: var(--text-primary);
+        }
+        
+        .support-header {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .support-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+        
+        .support-header p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+        }
+        
+        .support-section {
+            margin-bottom: 40px;
+            transition: all var(--animation-medium) ease;
+        }
+        
+        .support-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
+        }
+        
+        .support-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+        }
+        
+        .support-section p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        .support-section strong {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 40px;
+            color: var(--primary);
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            transition: all 0.2s ease;
+        }
+        
+        .back-link:hover {
+            transform: translateX(-5px);
+        }
+        
+        main {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .contact-email {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin: 15px 0;
+            display: block;
+        }
+        
+        .response-time {
+            font-style: italic;
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+        
+        /* FAQ styling */
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .faq-item {
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background-color: rgba(40, 40, 40, 0.5);
+            transition: all var(--animation-medium) ease;
+        }
+        
+        .faq-item:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        
+        .faq-answer {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        .version-info {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: rgba(30, 30, 30, 0.7);
+            border-radius: 8px;
+            color: var(--text-secondary);
+        }
+        
+        .version-info p {
+            margin-bottom: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .support-container {
+                padding: 30px 24px;
+                margin: 40px auto;
+            }
+            
+            .support-header h1 {
+                font-size: 2rem;
+            }
+            
+            .support-section h2 {
+                font-size: 1.5rem;
+            }
+            
+            .contact-email {
+                font-size: 1.2rem;
+            }
+            
+            .faq-item {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background gradient element -->
+    <div class="bg-gradient"></div>
+    
+    <!-- Site Header Component -->
+    <site-header></site-header>
+
+    <main>
+        <div class="support-container enhanced-card">
+            <div class="support-header">
+                <h1>PocketSous Support</h1>
+                <p>Need help with the app or have questions? We're here to help.</p>
+            </div>
+            
+            <div class="support-section">
+                <h2>Contact</h2>
+                <p>If you're running into issues or have feedback, email us at:</p>
+                <a href="mailto:support@pocketsous.app" class="contact-email">support@pocketsous.app</a>
+            </div>
+            
+            <div class="support-section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">Q: Does the app work offline?</div>
+                        <div class="faq-answer">
+                            Yes! PocketSous works completely offline. Once you've downloaded the app, you don't need an internet connection to access and use the recipes.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Q: How do I use the built-in timers?</div>
+                        <div class="faq-answer">
+                            When you reach a step that requires timing, you'll see a timer icon. Simply tap the timer button to start the countdown. The app will notify you when the time is up, even if your phone is locked.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Q: Will my screen turn off while I'm cooking?</div>
+                        <div class="faq-answer">
+                            No. PocketSous prevents your device from sleeping while you're actively using a recipe, so you don't have to worry about touching the screen with messy hands to keep it awake.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Q: Will more recipes be added?</div>
+                        <div class="faq-answer">
+                            Yes! We're continuously working on adding new recipes. Each recipe is carefully tested and formatted to provide the best cooking experience. Updates with new recipes will be released regularly.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Q: Can I suggest a recipe?</div>
+                        <div class="faq-answer">
+                            Absolutely! We love hearing what recipes you'd like to see in the app. Send your suggestions to support@pocketsous.app.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Q: What makes PocketSous different from other recipe apps?</div>
+                        <div class="faq-answer">
+                            PocketSous focuses on the cooking experience rather than just providing recipes. We break down each recipe into clear, manageable steps, include built-in timers, prevent your screen from sleeping, and design the interface for one-handed use while cooking. There are no ads, no social features, and no clutter—just a calm, focused cooking experience.
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">Q: Can I customize the recipes?</div>
+                        <div class="faq-answer">
+                            Currently, PocketSous provides fixed recipes, but we're exploring ways to add customization options in future updates.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="version-info">
+                    <p><strong>Version Info</strong></p>
+                    <p>• Current App Version: 1.0</p>
+                    <p>• Last Updated: April 2025</p>
+                </div>
+            </div>
+            
+            <a href="index.html" class="back-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                Back to Home
+            </a>
+        </div>
+    </main>
+
+    <!-- Site Footer Component -->
+    <site-footer></site-footer>
+</body>
+</html>

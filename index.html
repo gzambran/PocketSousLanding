@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PocketSous | Your Personal Sous Chef in the Kitchen</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="PocketSous is a calm, step-by-step cooking assistant that helps you cook with clarity and confidence. Simple instructions, built-in timers, and a focus on ease—not overwhelm.">
+    <meta name="keywords" content="cooking app, recipe app, cooking assistant, step-by-step cooking, cooking timer">
+    <link rel="canonical" href="https://pocketsous.app/">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pocketsous.app/">
+    <meta property="og:title" content="PocketSous | Your Personal Sous Chef in the Kitchen">
+    <meta property="og:description" content="A calm, step-by-step cooking assistant that helps you cook with clarity and confidence.">
+    <meta property="og:image" content="https://pocketsous.app/app-screenshot.webp">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://pocketsous.app/">
+    <meta name="twitter:title" content="PocketSous | Your Personal Sous Chef in the Kitchen">
+    <meta name="twitter:description" content="A calm, step-by-step cooking assistant that helps you cook with clarity and confidence.">
+    <meta name="twitter:image" content="https://pocketsous.app/app-screenshot.webp">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Resource hints for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Load shared components -->
+    <script src="components/shared-components.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Background gradient element -->
+    <div class="bg-gradient"></div>
+    
+    <!-- Site Header Component -->
+    <site-header></site-header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Personal <span class="accent">Sous Chef</span></h1>
+                <p class="tagline">Cook with clarity and confidence</p>
+                <p class="hero-text">
+                    PocketSous is a calm, step-by-step cooking assistant that helps you cook with ease—not overwhelm.
+                </p>
+            </div>
+            <div class="hero-image">
+                <div class="phone-wrapper">
+                    <div class="phone">
+                        <div class="phone-screen">
+                            <img src="images/app-screenshot.webp" alt="PocketSous App in action" class="app-screenshot hero-app-screenshot" width="270" height="584" decoding="async">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <section id="app-preview" class="app-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cook With Confidence Using PocketSous</h2>
+                <p>Inspired by the role of a sous chef—someone who quietly supports the head chef—PocketSous helps you stay focused as you cook.</p>
+            </div>
+            
+            <!-- Feature sections with alternating layout -->
+            <div class="feature-sections">
+                <!-- Feature 1: Step-by-Step Instructions -->
+                <div class="feature-section enhanced-card">
+                    <div class="feature-content">
+                        <h3>Step-by-Step Instructions</h3>
+                        <p>Clear, focused cooking steps without distractions. Each recipe is broken down into manageable steps to guide you from start to finish.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img src="images/app-screenshot-1.webp" alt="Step-by-Step Instructions" class="app-screenshot lightbox-trigger" loading="lazy" width="270" height="584">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                <!-- Feature 2: Built-in Timers -->
+                <div class="feature-section enhanced-card">
+                    <div class="feature-content">
+                        <h3>Built-in Cooking Timers</h3>
+                        <p>Never worry about timing again. Start the timer right from the recipe step and get notified when it's time for the next action.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img src="images/app-screenshot-3.webp" alt="Built-in Cooking Timers" class="app-screenshot lightbox-trigger" loading="lazy" width="270" height="584">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 3: Chef's Tips -->
+                <div class="feature-section reverse enhanced-card">
+                    <div class="feature-content">
+                        <h3>Chef's Tips & Techniques</h3>
+                        <p>Learn helpful techniques and cooking tips from experienced chefs. Improve your skills with every meal you prepare.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img src="images/app-screenshot-4.webp" alt="Chef's Tips" class="app-screenshot lightbox-trigger" loading="lazy" width="270" height="584">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 4: Progress Tracking -->
+                <div class="feature-section enhanced-card">
+                    <div class="feature-content">
+                        <h3>Track Your Progress</h3>
+                        <p>See exactly where you are in the recipe at all times. Never lose your place, even when you're juggling multiple tasks in the kitchen.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img src="images/app-screenshot-5.webp" alt="Progress Tracking" class="app-screenshot lightbox-trigger" loading="lazy" width="270" height="584">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 5: One-Handed Use -->
+                <div class="feature-section reverse enhanced-card">
+                    <div class="feature-content">
+                        <h3>Designed for One-Handed Use</h3>
+                        <p>The interface is optimized for cooking—large tap targets and simple gestures let you navigate even with messy hands.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img src="images/app-screenshot-6.webp" alt="One-Handed Use" class="app-screenshot lightbox-trigger" loading="lazy" width="270" height="584">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Feature 6: Simple and Clean -->
+                <div class="feature-section enhanced-card">
+                    <div class="feature-content">
+                        <h3>No Clutter, Just Cooking</h3>
+                        <p>No accounts, no ads, no distractions. PocketSous keeps the focus on what matters—helping you cook delicious meals with confidence.</p>
+                    </div>
+                    <div class="feature-image">
+                        <div class="phone">
+                            <div class="phone-screen">
+                                <img src="images/app-screenshot-7.webp" alt="Simple and Clean Interface" class="app-screenshot lightbox-trigger" loading="lazy" width="270" height="584">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="use-cases" class="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2>Current Recipe Collection</h2>
+                <p>Our carefully selected recipes are designed to be approachable and flexible, with clear guidance at every step.</p>
+            </div>
+            
+            <div class="use-cases-grid">
+                
+                <div class="use-case enhanced-card">
+                    <div class="use-case-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"/></svg>
+                    </div>
+                    <div class="use-case-content">
+                        <h3>French Toast</h3>
+                        <p>Perfect for a weekend breakfast. Learn how to make golden, custardy French toast with just a few simple ingredients.</p>
+                    </div>
+                </div>
+                
+                <div class="use-case enhanced-card">
+                    <div class="use-case-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <div class="use-case-content">
+                        <h3>Pancakes</h3>
+                        <p>Learn to make fluffy, delicious pancakes from scratch. Perfect for beginners and experienced cooks alike.</p>
+                    </div>
+                </div>
+                
+                <div class="use-case enhanced-card">
+                    <div class="use-case-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+                    </div>
+                    <div class="use-case-content">
+                        <h3>Pan-Fried Chicken Thighs</h3>
+                        <p>Master the technique for perfectly crispy skin and juicy meat. A versatile weeknight dinner option.</p>
+                    </div>
+                </div>
+                
+                <div class="use-case enhanced-card">
+                    <div class="use-case-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <div class="use-case-content">
+                        <h3>Pan-Fried Tofu</h3>
+                        <p>Create crispy, flavorful tofu that even skeptics will enjoy. Learn the secrets to perfect texture every time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Just Tap, Cook, and Enjoy</h2>
+                <p>Whether you're cooking dinner on a weeknight or trying something new, PocketSous is here to help you focus on what matters.</p>
+                <a href="https://apps.apple.com/app/id6743449540" class="app-store-badge">
+                    <img src="Apple_Badge_White.svg" alt="Download on the App Store">
+                </a>
+            </div>
+        </div>
+        <div class="cta-bg"></div>
+    </section>
+
+    <!-- Site Footer Component -->
+    <site-footer></site-footer>
+    <!-- Lightbox for enlarged images -->
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+        <div class="lightbox-content">
+            <span class="close-lightbox" role="button" tabindex="0" aria-label="Close lightbox">&times;</span>
+            <img id="lightbox-img" src="" alt="Enlarged screenshot">
+        </div>
+    </div>
+</body>
+</html>
