@@ -11,7 +11,7 @@ class SiteHeader extends HTMLElement {
             <header>
                 <div class="container">
                     <a href="/" class="logo">
-                        <img src="logo.svg" alt="PocketSous Logo" width="50" height="50">
+                        <img src="logo.png" alt="PocketSous Logo" width="50" height="50">
                         <span>PocketSous</span>
                     </a>
                     <div class="header-cta">
@@ -37,7 +37,7 @@ class SiteFooter extends HTMLElement {
                 <div class="container">
                     <div class="footer-content">
                         <a href="/" class="footer-logo">
-                            <img src="logo.svg" alt="PocketSous Logo" width="60" height="60">
+                            <img src="logo.png" alt="PocketSous Logo" width="60" height="60">
                             <span>PocketSous</span>
                         </a>
                         <p>Your personal sous chef in the kitchen. No accounts. No ads. No clutter.</p>
