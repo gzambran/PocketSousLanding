@@ -1,5 +1,3 @@
-// PocketSous Shared Components
-
 // Site Header Component
 class SiteHeader extends HTMLElement {
     constructor() {
