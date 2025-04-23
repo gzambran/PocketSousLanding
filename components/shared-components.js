@@ -13,7 +13,7 @@ class SiteHeader extends HTMLElement {
                         <span>PocketSous</span>
                     </a>
                     <div class="header-cta">
-                        <a href="https://apps.apple.com/app/id6743449540" class="app-store-badge">
+                        <a href="https://apps.apple.com/app/id6744291667" class="app-store-badge">
                             <img src="Apple_Badge_White.svg" alt="Download on the App Store">
                         </a>
                     </div>
